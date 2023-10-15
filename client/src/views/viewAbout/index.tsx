@@ -1,5 +1,3 @@
-import { useNavigate } from 'react-router-dom';
-
 import Header from 'components/header';
 
 import svg from 'assets/svg';
@@ -10,7 +8,6 @@ import { useState } from 'react';
 import * as S from './styles';
 
 const ViewAbout = () => {
-  const navigate = useNavigate();
   const [postalCode, setPostalCode] = useState<string>('03542000');
   const [data, setData] = useState<any>();
 
@@ -19,9 +16,7 @@ const ViewAbout = () => {
       const response = await axios.get(
         `https://viacep.com.br/ws/${postalCode}/json/`,
       );
-
       const address: any = response.data;
-
       setData({
         address: address.logradouro,
         neighborhood: address.bairro,
@@ -31,7 +26,6 @@ const ViewAbout = () => {
       alert('Erro ao consultar o endereço');
     }
   };
-
   return (
     <S.Container>
       <S.Header>

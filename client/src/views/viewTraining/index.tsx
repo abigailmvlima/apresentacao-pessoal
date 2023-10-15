@@ -1,14 +1,9 @@
-import { useNavigate } from 'react-router-dom';
-
-import Header from 'components/header';
-
 import ButtonGoHome from 'components/buttonGoHome';
+import Header from 'components/header';
 import { EActiveView } from 'domains/enums/EActiveView';
 import * as S from './styles';
 
 const ViewTraining = () => {
-  const navigate = useNavigate();
-
   const courses = [
     {
       label: 'linux',
@@ -27,14 +22,12 @@ const ViewTraining = () => {
       text: '2015 semicos',
     },
   ];
-
   const graduation = [
     {
       label: 'INTERNET SYSTEMS',
       text: '2021 -2023 Faculty FIAP',
     },
   ];
-
   const linguagens = [
     {
       text: 'inglês',
@@ -46,7 +39,6 @@ const ViewTraining = () => {
       text: 'espanhol',
     },
   ];
-
   return (
     <S.Container>
       <S.Header>

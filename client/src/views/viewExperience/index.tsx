@@ -1,14 +1,9 @@
-import { useNavigate } from 'react-router-dom';
-
-import Header from 'components/header';
-
 import ButtonGoHome from 'components/buttonGoHome';
+import Header from 'components/header';
 import { EActiveView } from 'domains/enums/EActiveView';
 import * as S from './styles';
 
 const ViewExperience = () => {
-  const navigate = useNavigate();
-
   const experience = [
     {
       company: 'InnovateTech Solutions',
@@ -23,7 +18,6 @@ const ViewExperience = () => {
         'Analysis and modernization of legacy systems, migration to modern technologies.',
     },
   ];
-
   return (
     <S.Container>
       <S.Header>

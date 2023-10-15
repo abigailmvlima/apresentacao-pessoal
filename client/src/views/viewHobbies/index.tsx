@@ -1,14 +1,9 @@
-import { useNavigate } from 'react-router-dom';
-
-import Header from 'components/header';
-
 import ButtonGoHome from 'components/buttonGoHome';
+import Header from 'components/header';
 import { EActiveView } from 'domains/enums/EActiveView';
 import * as S from './styles';
 
 const ViewHobbies = () => {
-  const navigate = useNavigate();
-
   const data = [
     {
       title: 'FAMILY COOKING:',
