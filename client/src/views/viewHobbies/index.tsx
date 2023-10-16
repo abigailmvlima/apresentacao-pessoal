@@ -1,25 +1,20 @@
-import { useNavigate } from 'react-router-dom';
-
-import Header from 'components/header';
-
 import ButtonGoHome from 'components/buttonGoHome';
+import Header from 'components/header';
 import { EActiveView } from 'domains/enums/EActiveView';
 import * as S from './styles';
 
 const ViewHobbies = () => {
-  const navigate = useNavigate();
-
   const data = [
     {
-      title: 'FAMILY COOKING',
+      title: 'FAMILY COOKING:',
       text: 'My son and I love to cook. This moment not only teaches cooking skills, but its also the opportunity I have to share stories, try new flavors, and create memories together.',
     },
     {
-      title: 'BOARD GAMES',
+      title: 'BOARD GAMES:',
       text: 'I love board games. It is a time of much fun and relaxation among friends and family.',
     },
     {
-      title: 'PRACTICE SPORTS',
+      title: 'PRACTICE SPORTS:',
       text: 'I like to do weight training in the gym and swimming',
     },
   ];

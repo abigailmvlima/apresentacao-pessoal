@@ -118,9 +118,9 @@ export const MapBase = styled.div`
 export const Description = styled.div`
   display: flex;
   text-align: justify;
-  font-size: 23px;
+  font-size: 20px;
   color: #a8a8a8;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   line-height: 36px;
 `;
 

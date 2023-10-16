@@ -4,15 +4,12 @@ import * as S from './styles';
 type TProps = {
   active?: EActiveView;
 };
-
 type TTypeMenu = {
   label: string;
   active: EActiveView;
 };
-
 const Menu = ({ active = EActiveView.home }: TProps) => {
   const navigate = useNavigate();
-
   const data: TTypeMenu[] = [
     {
       label: 'About',
@@ -31,7 +28,6 @@ const Menu = ({ active = EActiveView.home }: TProps) => {
       active: EActiveView.hobbies,
     },
   ];
-
   const Button = ({
     label,
     routePath,
@@ -45,7 +41,6 @@ const Menu = ({ active = EActiveView.home }: TProps) => {
       {label}
     </S.Button>
   );
-
   return (
     <S.Container>
       {data.map((m: TTypeMenu, key: number) => (
@@ -59,5 +54,4 @@ const Menu = ({ active = EActiveView.home }: TProps) => {
     </S.Container>
   );
 };
-
 export default Menu;

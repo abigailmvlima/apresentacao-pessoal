@@ -39,8 +39,7 @@ export const Cols = styled.div`
   width: 50%;
   margin: 0 1px;
   justify-content: flex-start;
-  align-items: flex-start;
-
+  align-items: flex-end;
 `;
 
 export const MyTitle = styled(svg.MyHobbies)`
@@ -90,8 +89,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin: 60px 10% 25px 10%;
-
-  `
+`;
 
 export const ContentBase = styled.div`
   display: flex;
@@ -99,7 +97,7 @@ export const ContentBase = styled.div`
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 35px;
-`
+`;
 
 export const ContentTitle = styled.div`
   display: flex;
@@ -107,17 +105,18 @@ export const ContentTitle = styled.div`
   font-size: 18px;
   font-family: 'Roboto';
   font-weight: bold;
-  color: #686868;
-  letter-spacing: 2px;
-`
+  color: #878787;
+  letter-spacing: 4px;
+`;
 
 export const ContentText = styled.div`
   display: flex;
   width: 70%;
-  font-size: 22px;
+  font-size: 23px;
   font-family: 'Roboto';
   font-weight: 200;
-  color: #686868;
+  color: #a8a8a8;
   letter-spacing: 2px;
   text-align: justify;
-`
+  line-height: 35px;
+`;
