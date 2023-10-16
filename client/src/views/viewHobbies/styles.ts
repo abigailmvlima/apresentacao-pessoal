@@ -104,7 +104,7 @@ export const ContentBase = styled.div`
 export const ContentTitle = styled.div`
   display: flex;
   width: 30%;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Roboto';
   font-weight: bold;
   color: #686868;
