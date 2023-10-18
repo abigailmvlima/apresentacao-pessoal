@@ -7,17 +7,17 @@ Sobre Mim
 
 Nesta página, você poderá mergulhar no meu universo. Conteúdo que conta a história da minha vida, minha formação, paixões e valores. Saiba como minha trajetória moldou minha personalidade e me trouxe até aqui.
 
-Experiências
+Treinamentos
 
-Na seção de experiências, compartilho minhas jornadas e realizações ao longo dos anos. Você encontrará informações sobre minha carreira profissional, projetos importantes e desafios superados. Conheça as lições que aprendi ao longo do caminho e como essas experiências moldaram meu caráter.
+Na página de treinamentos, detalho minha busca constante por aprendizado e aprimoramento. Aqui, você encontrará informações sobre cursos, workshops e treinamentos que participei para aprimorar minhas habilidades. Descubra como estou sempre buscando novos conhecimentos para me manter atualizado e enfrentar desafios de forma mais eficaz.
 
 Hobbies
 
 Uma das partes mais divertidas! Aqui, compartilho meus hobbies e interesses pessoais. Desde minhas paixões por esportes e música até minhas atividades de lazer favoritas, esta seção revela o que me faz sorrir quando não estou trabalhando. Descubra como essas atividades me ajudam a relaxar e recarregar as energias.
 
-Treinamentos
+Experiências
 
-Na página de treinamentos, detalho minha busca constante por aprendizado e aprimoramento. Aqui, você encontrará informações sobre cursos, workshops e treinamentos que participei para aprimorar minhas habilidades. Descubra como estou sempre buscando novos conhecimentos para me manter atualizado e enfrentar desafios de forma mais eficaz.
+Na seção de experiências, compartilho minhas jornadas e realizações ao longo dos anos. Você encontrará informações sobre minha carreira profissional, projetos importantes e desafios superados. Conheça as lições que aprendi ao longo do caminho e como essas experiências moldaram meu caráter.
 
 Espero que este site de apresentação pessoal lhe dê uma visão completa da pessoa que sou, minha jornada até aqui e minhas paixões. Sinta-se à vontade para entrar em contato se tiver alguma pergunta ou se desejar compartilhar suas próprias experiências e interesses. Obrigado por visitar e por fazer parte desta jornada!
 
